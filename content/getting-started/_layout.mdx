@@ -1,0 +1,13 @@
+---
+type: docs
+---
+
+<div className="mx-auto max-w-content w-full px-4 py-6 grid grid-cols-1 md:grid-cols-[1fr_220px] gap-8">
+  <div className="space-y-6">
+    {/* This is where content will be rendered by mdx pages using this layout */}
+    {props.children}
+  </div>
+  <aside className="order-first md:order-last text-sm text-slate-600">
+    <nav>(sibling navigation)</nav>
+  </aside>
+</div>
