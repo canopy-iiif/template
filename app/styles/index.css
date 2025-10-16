@@ -1,0 +1,29 @@
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss/theme";
+@import "@canopy-iiif/app/ui/styles/index.css";
+
+/* CSS variables */
+@layer properties {
+  :root {
+    --font-sans:
+      "IBM Plex Sans", system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+    --font-mono: "ui-monospace", Menlo, Consolas, monospace;
+  }
+}
+
+/* Example component layer overrides */
+@layer components {
+}
+@layer base {
+  html {
+    font-family: var(--font-serif);
+    font-size: 100%;
+    font-weight: 300;
+  }
+}

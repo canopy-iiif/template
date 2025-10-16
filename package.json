@@ -1,0 +1,29 @@
+{
+  "name": "@canopy-iiif/app-root",
+  "version": "0.8.6",
+  "description": "An open-source static site generator designed for fast creation, contextualization, and customization of a discovery-focused digital scholarship and collections website using IIIF APIs.",
+  "private": true,
+  "main": "app/scripts/canopy-build.mjs",
+  "scripts": {
+    "build": "tsx app/scripts/canopy-build.mts",
+    "dev": "tsx app/scripts/canopy-build.mts"
+  },
+  "dependencies": {
+    "@canopy-iiif/app": "^0.8.6",
+    "@samvera/clover-iiif": "^3.0.1",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "@types/node": "^24.6.2",
+    "esbuild": "^0.21.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.3"
+  },
+  "author": "Mat Jordan <mat@northwestern.edu>",
+  "homepage": "https://canopy-iiif.github.io/docs/",
+  "license": "MIT"
+}
