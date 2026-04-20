@@ -9,7 +9,7 @@
 - Build/dev commands that touch IIIF endpoints (`npm run dev`, `npm run build`) must run with network access enabled.
 
 ## 2. Quick Start Checks
-1. Require Node 18+ (use `nvm use` if `.nvmrc` exists) and install dependencies with `npm install`.
+1. Require Node 24+ (use `nvm use` if `.nvmrc` exists) and install dependencies with `npm install`.
 2. `npm run dev` runs the MDX/IIIF builder plus the preview server on port 5001; `npm run build` emits a production-ready static site into `site/`.
 3. `npm test` only prints a placeholder; let users know automated tests are not bundled yet.
 4. Never edit `site/` manually—it's a build artifact that is overwritten.
